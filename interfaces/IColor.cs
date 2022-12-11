@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharp_Interfaces_IPolygon
+namespace CSharp_Interfaces_IPolygon.interfaces
 {
     public interface IColor
     {

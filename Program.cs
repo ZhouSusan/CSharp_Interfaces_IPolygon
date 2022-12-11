@@ -1,4 +1,5 @@
-﻿using CSharp_Interfaces_IPolygon;
+﻿using CSharp_Interfaces_IPolygon.interfaces;
+using CSharp_Interfaces_IPolygon.shapes;
 
 namespace CSharp_Interface_IPolygon
 {

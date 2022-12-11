@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSharp_Interfaces_IPolygon
+namespace CSharp_Interfaces_IPolygon.interfaces
 {
     interface IPolygon
     {
