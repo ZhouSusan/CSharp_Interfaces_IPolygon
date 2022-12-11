@@ -4,7 +4,7 @@ namespace CSharp_Interfaces_IPolygon
 {
     interface IPolygon
     {
-        void calculatePerimeter(int c, int d);
-        void calculateArea(int a, int b);
+        void CalculatePerimeter(int c, int d);
+        void CalculateArea(int a, int b);
     }
 }

@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace CSharp_Interfaces_IPolygon
 {
-    class Rectangle : IPolygon
+    public class Rectangle : IPolygon
     {
-        public void calculateArea(int a, int b)
+        public void CalculateArea(int a, int b)
         {
             int area = a * b;
             Console.WriteLine($"Area of a rectangle is {area}.");
         }
 
-        public void calculatePerimter(int c, int d)
+        public void CalculatePerimeter(int c, int d)
         {
             int perimeter = 2*(c + d);
             Console.WriteLine($"Perimer of a rectangle is {perimeter}.");
