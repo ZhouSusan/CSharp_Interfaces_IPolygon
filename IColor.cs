@@ -8,6 +8,6 @@ namespace CSharp_Interfaces_IPolygon
 {
     public interface IColor
     {
-        void getColor();
+        void GetColor();
     }
 }

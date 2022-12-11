@@ -14,7 +14,7 @@ namespace CSharp_Interfaces_IPolygon
             Console.WriteLine($"Area of a rectangle is {area}.");
         }
 
-        void IColor.getColor()
+       public void GetColor()
         {
             Console.WriteLine("Yellow Rectangle");
         }
