@@ -13,11 +13,5 @@ namespace CSharp_Interfaces_IPolygon
             int area = a * b;
             Console.WriteLine($"Area of a rectangle is {area}.");
         }
-
-        public void CalculatePerimeter(int c, int d)
-        {
-            int perimeter = 2*(c + d);
-            Console.WriteLine($"Perimer of a rectangle is {perimeter}.");
-        }
     }
 }

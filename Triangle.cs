@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace CSharp_Interfaces_IPolygon
 {
-    internal class Triangle
+    public class Triangle : IPolygon
     {
+        void IPolygon.CalculateArea(int a, int b)
+        {
+            int area = 1 / 2 * (a * b);
+            Console.WriteLine($"Area of Triangle is is {area}.");
+        }
     }
 }
