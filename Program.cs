@@ -17,6 +17,10 @@ namespace CSharp_Interface_IPolygon
             Rectangle rect2 = new Rectangle();
             rect2.CalculateArea(30, 30);
             rect2.GetColor();
+
+            Circle circle = new Circle();
+            circle.CalculateArea(2, 2);
+            circle.GetColor();
         }
     }
 }
